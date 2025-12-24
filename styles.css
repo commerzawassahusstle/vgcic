@@ -2466,6 +2466,21 @@ img[loading="lazy"].loaded {
 }
 
 /* Responsive Design */
+@media (max-width: 360px) {
+    .btn-ticket {
+        font-size: 0.7rem;
+        padding: 5px 8px;
+        margin-right: 30px;
+    }
+    
+    .btn-ticket span {
+        display: none;
+    }
+    
+    .nav-brand .logo {
+        max-width: 120px;
+    }
+}
 @media (max-width: 768px) {
     .nav-menu {
         position: fixed;
@@ -2478,6 +2493,12 @@ img[loading="lazy"].loaded {
         transition: 0.3s;
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
         padding: 2rem 0;
+    }
+    
+    .btn-ticket {
+        font-size: 0.85rem;
+        padding: 8px 12px;
+        margin-right: 40px;
     }
 
     .nav-menu.active {
@@ -2618,6 +2639,17 @@ img[loading="lazy"].loaded {
 @media (max-width: 480px) {
     .hero-title {
         font-size: 1.5rem;
+    }
+    
+    .btn-ticket {
+        font-size: 0.75rem;
+        padding: 6px 10px;
+        margin-right: 35px;
+    }
+    
+    .btn-ticket span {
+        margin-right: 3px;
+        font-size: 0.75rem;
     }
 
     .container {
