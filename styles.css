@@ -402,7 +402,7 @@ body {
     flex: 0 0 auto;
     width: 350px;
     height: 350px;
-    border-radius: 12px;
+    border-radius: 8px;
     overflow: hidden;
     position: relative;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -424,7 +424,7 @@ body {
     height: 100%;
     object-fit: cover;
     display: block;
-    border-radius: 12px;
+    border-radius: 8px;
     transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
